@@ -62,6 +62,7 @@ jobs:
             @semantic-release/exec \
             @semantic-release/git \
             @semantic-release/github
+      - run: chmod +x ./scripts/build-and-pack.sh
       - run: npx semantic-release
       - persist_to_workspace:
           root: artifacts
