@@ -37,7 +37,6 @@ jobs:
       - checkout:
           path: .
           fetch-depth: 0
-      - run: dotnet restore
       - run:
           name: Install Node.js
           command: |
@@ -64,8 +63,6 @@ jobs:
             @semantic-release/git \
             @semantic-release/github
       - run: npx semantic-release
-      - run: dotnet build --no-restore -c Release
-      - run: dotnet pack --no-build -o ./artifacts -c Release
       - persist_to_workspace:
           root: artifacts
           paths:

@@ -3,7 +3,19 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>enable</Nullable>
+        <PackageId>SemanticRelease.CoreBehavior</PackageId>
+        <PackageProjectUrl>https://github.com/duncanmcpherson/semantic-core</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/duncanmcpherson/semantic-core</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="LICENSE" Pack="true" PackagePath="" />
+      <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="LibGit2Sharp" Version="0.31.0" />
