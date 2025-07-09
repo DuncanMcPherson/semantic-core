@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DuncanMcPherson/semantic-core/compare/v1.0.0...v1.0.1) (2025-07-09)
+
+
+### Bug Fixes
+
+* use variable instead of undefined value ([8de83fb](https://github.com/DuncanMcPherson/semantic-core/commit/8de83fbf96dfa4d5e3f169966b4fed6b92b0b3a6))
+
 # 1.0.0 (2025-07-09)
 
 
