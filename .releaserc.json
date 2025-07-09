@@ -13,7 +13,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "sed -i \"s|<Version>.*</Version>|<Version>${nextRelease.version}</Version>|\" SemanticRelease.Core.csproj"
+        "publishCmd": "./scripts/build-and-pack.sh ${nextRelease.version} '${nextRelease.notes}'"
       }
     ],
     [
