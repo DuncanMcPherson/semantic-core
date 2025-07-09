@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/DuncanMcPherson/semantic-core/compare/v1.0.2...v1.0.3) (2025-07-09)
+
+
+### Bug Fixes
+
+* add last tag data to the context ([6533a9e](https://github.com/DuncanMcPherson/semantic-core/commit/6533a9e432488a3983320b171f00c2dc8e79f111))
+
 ## [1.0.2](https://github.com/DuncanMcPherson/semantic-core/compare/v1.0.1...v1.0.2) (2025-07-09)
 
 
