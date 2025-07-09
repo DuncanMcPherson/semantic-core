@@ -22,6 +22,7 @@ namespace SemanticRelease.Core
                 }
                 var commits = await GetCommitsSinceLastTagAsync(repo, lastTag);
                 context.PluginData["commits"] = commits;
+                context.PluginData["lastTag"] = lastTag != null ? lastTag.FriendlyName : "0.0.0";
                 Console.WriteLine($"Found {commits.Count} commits");
             });
         }
